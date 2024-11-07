@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "My Weather",
+    "slug": "myweatherapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app requires access to your location to provide weather information.",
+        "NSLocationAlwaysUsageDescription": "This app requires access to your location even when the app is in the background to provide timely updates.",
+        "UIBackgroundModes": [
+          "location"
+        ]
+      },
+      "bundleIdentifier": "com.arteed.weatherappwithgeolocation"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "INTERNET"
+      ],
+      "package": "com.arteed.weatherappwithgeolocation",
+      "config": {
+        "googleMaps": {
+          "apiKey": "YOUR GOOGLE MAPS API"
+        }
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "88dc82ab-e347-459f-9e05-8e303bdba9d4"
+      }
+    },
+    "owner": "arteed",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/56165b2d-bc73-4ab7-8177-33a2ec920606"
+    }
+  }
+}
