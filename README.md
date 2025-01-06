@@ -2,13 +2,14 @@
 
 Weather App Using Geolocation
 
-Started this as a school project with 3 members in total. With 0% knowledge of React Native and Expo Go, we managed to create a mobile Android app that has a feature of current weather forecasts and access to major traffic near the user. This app is also using your geolocation to gather the current weather and traffic near you, with a user-friendly interface. We use the Google Maps API to make this project work.
+Started this as a school project with 3 members in total. With 0% knowledge of React Native and Expo Go, we managed to create a mobile Android app that has a feature of current weather forecasts and access to major traffic near the user. This app is also using your geolocation to gather the current weather and traffic near you, with a user-friendly interface. We add a popup warning based on your current weather. We use the Google Maps API to make this project work.
 
 ## Features
 
 - Geolocation-Based Weather Updates
 - Current Weather and Forecasts
 - Assess traffic conditions with road colors
+- Popup Warnings based on your current Weather
 - Intuitive User Interface
 
 ## Screenshots
